@@ -6,7 +6,7 @@ Operating in the energy domain, the project focuses on understanding and forecas
 
 # Literature
 1. Electricity Consumption Dataset of Uruguay (ECD-UY):
-Introduces ECD-UY, a dataset focusing on electricity consumption patterns in residential households in Montevideo. It includes subsets covering total household consumption, electric water heater usage, and disaggregated electricity consumption by appliance. Collected using smart meters, smart switches, and clamp meters, it contributes to understanding customer behavior and improving energy service quality. The collaboration between UTE and the Universidad de la República highlights Uruguay's unique position with high renewable energy use. Link
+Introduces ECD-UY, a dataset focusing on electricity consumption patterns in residential households in Montevideo. It includes subsets covering total household consumption, electric water heater usage, and disaggregated electricity consumption by appliance. Collected using smart meters, smart switches, and clamp meters, it contributes to understanding customer behavior and improving energy service quality. The collaboration between UTE and the Universidad de la República highlights Uruguay's unique position with high renewable energy use. [Link](https://www.nature.com/articles/s41597-022-01122-x)
 
 2. Residential Community Energy Consumption and Generation:
 Presents a novel dataset focused on energy consumption and generation in a residential community, consisting of 50 households and a public building. The dataset includes consumption and photovoltaic generation profiles, providing valuable insights for advanced energy management models, demand response, machine learning algorithms, and smart building solutions. The publicly accessible dataset on Zenodo supports research in the energy field and enhances the analysis of energy consumption behavior. Link
@@ -29,4 +29,7 @@ Ethical considerations underscore responsible data handling practices to uphold 
 Capturing and understanding the temporal dynamics of electricity consumption over the nearly four-year period covered by the dataset is challenging.
 Handling sudden peaks or drops in power consumption, which might be caused by specific events or anomalies, poses a challenge for prediction models.
 KPIs (Key Performance Indicators):
+Key Performance Indicators encompass metrics such as accuracy, precision, and recall. The selection of these metrics hinges on the project's specific goals, such as minimizing errors in predicting global active power.
+
+# KPIs (Key Performance Indicators):
 Key Performance Indicators encompass metrics such as accuracy, precision, and recall. The selection of these metrics hinges on the project's specific goals, such as minimizing errors in predicting global active power.
