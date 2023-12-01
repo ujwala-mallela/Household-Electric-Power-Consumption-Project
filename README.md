@@ -1,10 +1,10 @@
-Project Scope:
+#Project Scope:
 The project's primary objective is the development of a machine learning model to predict household electric power consumption using the provided dataset. The specific challenge addressed is the minute-averaged prediction of global active power in households. Aligned with the educational goals of AWS Academy Cloud Foundations and Data Engineering, the project emphasizes practical applications of machine learning within the energy domain.
 
-Domain:
+#Domain:
 Operating in the energy domain, the project focuses on understanding and forecasting household electricity consumption. Key characteristics include time-series data, multivariate features, and challenges related to missing values. Stakeholders may include energy providers, policymakers, and households seeking to optimize power usage.
 
-Literature
+#Literature
 1. Electricity Consumption Dataset of Uruguay (ECD-UY):
 Introduces ECD-UY, a dataset focusing on electricity consumption patterns in residential households in Montevideo. It includes subsets covering total household consumption, electric water heater usage, and disaggregated electricity consumption by appliance. Collected using smart meters, smart switches, and clamp meters, it contributes to understanding customer behavior and improving energy service quality. The collaboration between UTE and the Universidad de la República highlights Uruguay's unique position with high renewable energy use. Link
 
@@ -20,10 +20,10 @@ Discusses the slow progress of energy conservation in the residential sector and
 5. Predicting Individual Household Energy Consumption:
 Addresses the challenge of predicting individual household energy consumption, proposing a two-phase approach using a long short-term memory (LSTM) model and a hybrid convolutional LSTM (ConvLSTM) model. The ConvLSTM architecture outperforms other models, contributing to multi-step forecasting for applications like social IoT-based smart grid planning. The research emphasizes the Social Internet of Things (IoT) and its application in smart homes, aiming to aid in planning expenditures and meeting electricity demands for single households, supporting sustainable development. Link
 
-Data Source(s)
+#Data Source(s)
 Data Source(s): The dataset utilized, "Individual Household Electric Power Consumption," is sourced from the UCI Machine Learning Repository. It encompasses over two million measurements of electric power consumption in a household spanning nearly four years. Features include date, time, global active power, global reactive power, voltage, global intensity, and sub-metering values. Challenges within the dataset include approximately 1.25% missing values, necessitating preprocessing to handle these gaps. Link to Dataset
 
-Challenges
+#Challenges
 In the energy domain, challenges include the imperative for accurate predictions to ensure efficient energy distribution.
 Ethical considerations underscore responsible data handling practices to uphold user privacy.
 Capturing and understanding the temporal dynamics of electricity consumption over the nearly four-year period covered by the dataset is challenging.
